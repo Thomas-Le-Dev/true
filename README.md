@@ -14,10 +14,10 @@ true - return true value
 \[--\]
 
 ## DESCRIPTION
-The **true** utility utility always returns with an exit code of zero.
+The **true** utility returns with an exit code of zero.
 
 Some shells may provide a builtin true command which is identical to this utility.
-Consult the builtin(1) manual page.
+Consult the [builtin(1)](https://www.freebsd.org/cgi/man.cgi?query=builtin) manual page.
 
 ### OPTIONS
 Options | Use
@@ -31,11 +31,14 @@ Options | Use
 The **true** utility exits 0 on success, and >0 if an error occurs.
 
 ## SEE ALSO
-builtin(1), csh(1), false(1), sh(1)
+[builtin(1)](https://www.freebsd.org/cgi/man.cgi?query=builtin),
+[csh(1)](https://www.freebsd.org/cgi/man.cgi?query=csh),
+[false(1)](https://www.freebsd.org/cgi/man.cgi?query=false),
+[sh(1)](https://www.freebsd.org/cgi/man.cgi?query=sh)
 
 ## STANDARDS
 The **true** utility is a standard UNIX/POSIX command.
-The **true** utility is expected to be IEEE Std 1003.2 (“POSIX.2”) compatible.
+It is expected to be IEEE Std 1003.2 (“POSIX.2”) compatible.
 
 It tries to follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for [Python](https://www.python.org/) code.
 
