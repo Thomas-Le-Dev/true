@@ -31,7 +31,7 @@
 .\"     @(#)true.1	8.1 (Berkeley) 6/9/93
 .\" $FreeBSD$
 .\"
-.Dd June 9, 1993
+.Dd July 5, 2021
 .Dt TRUE 1
 .Os
 .Sh NAME
@@ -42,7 +42,7 @@
 .Sh DESCRIPTION
 The
 .Nm
-utility always returns with an exit code of zero.
+utility returns with an exit code of zero.
 .Pp
 Some shells may provide a builtin
 .Nm
@@ -50,6 +50,20 @@ command which is identical to this utility.
 Consult the
 .Xr builtin 1
 manual page.
+.Ss OPTIONS
+.Op Fl -debug
+Enable debug mode
+.Pp
+.Op Fl -help|-?
+Print usage and a short help message and exit
+.Pp
+.Op Fl -version
+Print version and exit
+.Pp
+.Op Fl -
+Options processing terminator
+.Sh EXIT STATUS
+.Ex -std true
 .Sh SEE ALSO
 .Xr builtin 1 ,
 .Xr csh 1 ,
@@ -58,6 +72,23 @@ manual page.
 .Sh STANDARDS
 The
 .Nm
-utility is expected to be
+utility is a standard UNIX/POSIX command.
+It is expected to be
 .St -p1003.2
 compatible.
+.Pp
+It tries to follow the PEP 8 style guide for Python code.
+.Sh PORTABILITY
+Tested OK under Windows.
+.Sh HISTORY
+This version was made for the
+.Lk https://github.com/HubTou/PNU [PNU project]
+.Sh LICENSE
+This utility is available under the 3-clause BSD license.
+.Sh AUTHORS
+This version was written by
+.An "Thomas Tournier".
+.Pp
+The man page is derived from the
+.Fx
+project's one.
