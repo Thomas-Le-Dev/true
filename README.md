@@ -46,7 +46,7 @@ It tries to follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style 
 Tested OK under Windows.
 
 ## HISTORY
-This utility was made for [The PNU project](https://github.com/HubTou/PNU).
+This version was made for the [PNU project](https://github.com/HubTou/PNU).
 
 ## LICENSE
 This utility is available under the [3-clause BSD license](https://opensource.org/licenses/BSD-3-Clause).
