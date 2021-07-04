@@ -1,20 +1,23 @@
 # Installation
-pip install [pnu-COMMAND](https://pypi.org/project/pnu-COMMAND/)
+pip install [pnu-true](https://pypi.org/project/pnu-true/)
 
-# COMMAND(1)
+# TRUE(1)
 
 ## NAME
-COMMAND - ONE LINE DESCRIPTION
+true - return true value
 
 ## SYNOPSIS
-**COMMAND**
+**true**
 \[--debug\]
 \[--help|-?\]
 \[--version\]
 \[--\]
 
 ## DESCRIPTION
-The **COMMAND** utility
+The **true** utility utility always returns with an exit code of zero.
+
+Some shells may provide a builtin true command which is identical to this utility.
+Consult the builtin(1) manual page.
 
 ### OPTIONS
 Options | Use
@@ -24,25 +27,17 @@ Options | Use
 --version|Print version and exit
 --|Options processing terminator
 
-## ENVIRONMENT
-The COMMAND_DEBUG environment variable can also be set to any value to enable debug mode.
-
-## FILES
-
 ## EXIT STATUS
-The **COMMAND** utility exits 0 on success, and >0 if an error occurs.
-
-## EXAMPLES
+The **true** utility exits 0 on success, and >0 if an error occurs.
 
 ## SEE ALSO
+builtin(1), csh(1), false(1), sh(1)
 
 ## STANDARDS
-The **COMMAND** utility is a standard UNIX/POSIX command.
+The **true** utility is a standard UNIX/POSIX command.
+The **true** utility is expected to be IEEE Std 1003.2 (“POSIX.2”) compatible.
 
 It tries to follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide for [Python](https://www.python.org/) code.
-
-## PORTABILITY
-To be tested under Windows.
 
 ## HISTORY
 This utility was made for [The PNU project](https://github.com/HubTou/PNU).
@@ -51,11 +46,4 @@ This utility was made for [The PNU project](https://github.com/HubTou/PNU).
 This utility is available under the [3-clause BSD license](https://opensource.org/licenses/BSD-3-Clause).
 
 ## AUTHORS
-[YOU](https://github.com/YOU)
-
-## CAVEATS
-
-## BUGS
-
-## SECURITY CONSIDERATIONS
-
+[Thomas Tournier](https://github.com/Thomas-Le-Dev)
