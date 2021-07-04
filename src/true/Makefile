@@ -1,4 +1,4 @@
-NAME=COMMAND
+NAME=true
 SOURCES=main.py
 DESTROOTDIR=/usr/local
 
