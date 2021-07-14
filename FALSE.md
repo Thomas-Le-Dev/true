@@ -25,7 +25,7 @@ Options | Use
 --|Options processing terminator
 
 ## EXIT STATUS
-The **false** utility exits 1.
+The **false** utility returns with an exit code of 1.
 
 ## SEE ALSO
 [builtin(1)](https://www.freebsd.org/cgi/man.cgi?query=builtin),
