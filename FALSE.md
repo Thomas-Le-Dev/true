@@ -30,7 +30,7 @@ The **false** utility exits 1.
 ## SEE ALSO
 [builtin(1)](https://www.freebsd.org/cgi/man.cgi?query=builtin),
 [csh(1)](https://www.freebsd.org/cgi/man.cgi?query=csh),
-[true(1)](https://www.freebsd.org/cgi/man.cgi?query=true),
+[true(1)](https://github.com/Thomas-Le-Dev/true/blob/main/README.md),
 [sh(1)](https://www.freebsd.org/cgi/man.cgi?query=sh)
 
 ## STANDARDS
