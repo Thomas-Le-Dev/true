@@ -33,7 +33,7 @@ The **true** utility exits 0 on success, and >0 if an error occurs.
 ## SEE ALSO
 [builtin(1)](https://www.freebsd.org/cgi/man.cgi?query=builtin),
 [csh(1)](https://www.freebsd.org/cgi/man.cgi?query=csh),
-[false(1)](https://www.freebsd.org/cgi/man.cgi?query=false),
+[false(1)](https://github.com/Thomas-Le-Dev/true/blob/main/FALSE.md),
 [sh(1)](https://www.freebsd.org/cgi/man.cgi?query=sh)
 
 ## STANDARDS
