@@ -43,10 +43,13 @@ format: /usr/local/bin/black
 love:
 	@echo "Not war!"
 
-man/${NAME}.1.gz: man/${NAME}.1
-	@gzip -k9c man/${NAME}.1 > man/${NAME}.1.gz
+man/true.1.gz: man/true.1
+	@gzip -k9c man/true.1 > man/true.1.gz
 
-package: man/${NAME}.1.gz
+man/false.1.gz: man/false.1
+	@gzip -k9c man/false.1 > man/false.1.gz
+
+package: man/true.1.gz man/false.1.gz
 	python -m build
 
 upload-test:
@@ -56,4 +59,4 @@ upload:
 	python -m twine upload dist/*
 
 distclean:
-	rm -rf build dist man/${NAME}.1.gz src/*.egg-info
+	rm -rf build dist man/true.1.gz man/false.1.gz src/*.egg-info
