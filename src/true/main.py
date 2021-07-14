@@ -10,13 +10,13 @@ import os
 import sys
 
 # Version string used by the what(1) and ident(1) commands:
-ID = "@(#) $Id: true - return true value v1.0.1 (July 5, 2021) by Thomas Tournier $"
+ID = "@(#) $Id: true - return true value v1.1.0 (July 14, 2021) by Thomas Tournier $"
 
 
 ################################################################################
 def display_help():
     """Displays usage and help"""
-    print("usage: true [--debug] [--help|-?] [--version] [--]", file=sys.stderr)
+    print("usage: true|false [--debug] [--help|-?] [--version] [--]", file=sys.stderr)
     print(
         "  ------------------  -----------------------------------------------",
         file=sys.stderr,
@@ -82,8 +82,10 @@ def main():
 
     process_command_line()
 
-    sys.exit(0)
-
+    if program_name.lower() == "true":
+        sys.exit(0)
+    else:
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
